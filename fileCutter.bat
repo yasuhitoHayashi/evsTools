@@ -1,6 +1,15 @@
 @echo off
 setlocal enabledelayedexpansion
 
+:: @author: Yasuhito Hayashi (yHayashi)
+:: 
+:: CopyPolicy: 
+::     Released under the terms of the LGPLv2.1 or later
+::
+:: Purpose:
+::     event data cutting tool for evs files
+
+
 :: CSVファイルのパスを指定
 set "csv_file=cut_time.csv"
 
